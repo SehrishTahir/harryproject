@@ -68,6 +68,7 @@ body {
 
 .right {
     margin: 16px 0;
+    position: relative;
 }
 
 .header {
@@ -154,3 +155,11 @@ signupbtn:hover {
 .loginbtn:hover{
     font-weight: bold;
     font-size: 17px;
+}
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(68, 117, 68);
+    width: 100%;
+    padding: 12px;
+}
